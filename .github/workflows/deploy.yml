@@ -2,7 +2,7 @@ name: Deploy static site to EC2
 
 on:
   push:
-    branches: [ "main", "workflow_dispatch" ]
+    branches: [ "labs/dev" ]
 
 jobs:
   deploy:
@@ -38,4 +38,3 @@ jobs:
             sudo rsync -av /home/${{ secrets.EC2_USER }}/temp/ /usr/site/
             sudo rm -rf /home/${{ secrets.EC2_USER }}/temp
             sudo nginx -t && sudo systemctl reload nginx
-            
