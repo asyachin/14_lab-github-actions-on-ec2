@@ -1,0 +1,92 @@
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/pip-wheel-metadata/
+**/share/python-wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+**/.pytest_cache/
+**/.mypy_cache/
+**/.pyre/
+**/.pytype/
+**/htmlcov/
+**/.coverage
+**/.coverage.*
+**/coverage.xml
+**/*.cover
+
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+**/.npm
+**/.eslintcache
+
+# Docker
+# Note: .dockerignore files should be committed
+# **/.dockerignore
+*.cache
+
+# IDEs and Editors
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+**/.project
+**/.classpath
+**/.settings/
+
+# OS
+**/.DS_Store
+**/Thumbs.db
+**/*.bak
+**/*.tmp
+
+# Logs
+**/*.log
+**/logs/
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Temporary files
+**/tmp/
+**/temp/
+
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/terraform.tfstate.backup
+**/*.tfplan
+**/tfplan
+**/.terraformrc
+**/terraform.rc
+**/terraform.tfvars
+mysql-secret.yaml
+first_eks_commands.md
